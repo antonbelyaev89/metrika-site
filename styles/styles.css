@@ -183,7 +183,7 @@ body {
     color: white;
     display: block;
     margin-left: 1.5px;
-    margin-bottom: 32px;
+    margin-bottom: 34px;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -191,7 +191,7 @@ body {
   
   .services {
     padding-top: 149px;
-    padding-bottom: 89px;
+    padding-bottom: 90px;
     background-color: #121212;
     color: white;
   }
@@ -229,7 +229,7 @@ body {
     width: 443px;
     height: 82px;
     left: 125px;
-    bottom: 60px;
+    bottom: 58px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
@@ -246,8 +246,8 @@ body {
   }
   
   .contact__link {
-    margin-top: 151px;
-    margin-bottom: 160px;
+    margin-top: 152px;
+    margin-bottom: 162px;
   }
   
   .contact__title:before {
@@ -269,7 +269,7 @@ body {
     font-size: 60px;
     line-height: 60px;
     color: #121212;
-    letter-spacing: -0.016em;
+    letter-spacing: -0.015em;
     text-decoration: none;
   }
   
@@ -301,7 +301,7 @@ body {
   .footer__nav {
     width: 450px;
     margin: auto;
-    padding-bottom: 87px;
+    padding-bottom: 90px;
   }
   
   .footernav__link:first-child {
