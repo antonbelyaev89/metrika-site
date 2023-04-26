@@ -4,6 +4,15 @@ body {
     width: 1400px;
     margin: auto;
   }
+
+  h1,
+h2,
+h3,
+a,
+p,
+div {
+  letter-spacing: -0.03em;
+}
   
   .container {
     max-width: 1150px;
@@ -12,7 +21,7 @@ body {
   }
   
   .header {
-    padding-top: 33px;
+    padding-top: 31px;
     margin-bottom: 70px;
   }
 
@@ -23,6 +32,12 @@ body {
   align-items: center;
   }
 
+  .nav__menu  {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    float: unset;
+   }
  
   .nav__link {
     display: block;
@@ -33,13 +48,6 @@ body {
     text-transform: uppercase;
   }
 
- .nav__menu  {
-  display: flex;
-  justify-content: space-between;
-  gap: 52px;
-  float: unset;
- 
- }
   
   .nav__link a {
     text-decoration: none;
@@ -55,12 +63,11 @@ body {
     height: 120px;
     width: 956px;
     left: 125px;
-    margin-top: 73px;
+    margin-top: 71px;
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
     text-align: left;
-    letter-spacing: -0.03em;
   }
   
   .begin {
@@ -84,10 +91,10 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: -0.03em;
     text-align: left;
     color: #ffffff;
   }
+
   .about {
     margin-bottom: 150px;
   }
@@ -98,7 +105,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: -0.03em;
     color: #121212;
   }
   
@@ -108,14 +114,12 @@ body {
     font-size: 45px;
     font-weight: 400;
     line-height: 61px;
-    letter-spacing: -0.03em;
   }
   
   .btn_text {
     font-weight: 400;
     font-size: 19px;
     line-height: 27px;
-    letter-spacing: -0.01em;
     color: #ffffff;
   }
   
@@ -153,7 +157,6 @@ body {
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: #121212;
   }
   
@@ -180,9 +183,7 @@ body {
     cursor: pointer;
   }
   
-  .project_text_btn {
-    letter-spacing: -0.03em;
-  }
+ 
   
   .projects_link:hover {
     background-color: #ad1818;
@@ -200,8 +201,8 @@ body {
   }
   
   .services {
-    padding-top: 149px;
-    padding-bottom: 92px;
+    padding-top: 152px;
+    padding-bottom: 91px;
     background-color: #121212;
     color: white;
   }
@@ -218,7 +219,6 @@ body {
     font-size: 30px;
     line-height: 41px;
     margin-left: 3px;
-    letter-spacing: -0.03em;
   }
   
   .fullwidhtimg {
@@ -239,25 +239,23 @@ body {
     width: 443px;
     height: 82px;
     left: 125px;
-    bottom: 58px;
+    bottom: 61px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
     color: #ffffff;
-    letter-spacing: -0.03em;
   }
   
   .contact__title {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-transform: uppercase;
   }
   
   .contact__link {
-    margin-top: 150px;
-    margin-bottom: 162px;
+    margin-top: 149px;
+    margin-bottom: 163px;
   }
   
   .contact__title:before {
@@ -267,7 +265,7 @@ body {
     margin-left: -5px;
     width: 24px;
     height: 24px;
-    background-image: url(../resources/icon_phone.png);
+    background-image: url(../resourses/icon_phone.png);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -279,8 +277,8 @@ body {
     font-size: 60px;
     line-height: 60px;
     color: #121212;
-    letter-spacing: -0.015em;
     text-decoration: none;
+    letter-spacing: -0.015em;
   }
   
   .contacts__email {
@@ -289,7 +287,6 @@ body {
     color: #121212;
     opacity: 0.5;
     text-decoration: none;
-    letter-spacing: -0.03em;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   }
   
@@ -305,32 +302,31 @@ body {
     font-size: 20px;
     line-height: 27px;
     opacity: 0.5;
-    letter-spacing: -0.035em;
   }
   
   .footer__nav {
-    width: 450px;
     margin: auto;
-    padding-bottom: 87px;
+    margin-bottom: 87px;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
   }
   
-  .footernav__link:first-child {
-    margin: 0;
-  }
+ 
   
   .footernav__link:hover {
     opacity: 0.5;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   }
   
-  .footernav__link {
-    margin-left: 50px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
+  .footernav__link a {
     text-decoration: none;
-    letter-spacing: -0.035em;
-    color: #ffffff;
+    color: #f5f5f5;
+  }
+
+  .footernav__link {
+    font-size: 18px;
+    line-height: 25px;
   }
   
+
