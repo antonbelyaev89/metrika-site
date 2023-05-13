@@ -1,0 +1,20 @@
+.begin_image {
+    position: relative;
+    margin-top: 28px;
+    height: 500px;
+    width: 100%;
+    background-image: url(../resourses/armchair.png);
+  }
+  
+  .begin_text_img {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  

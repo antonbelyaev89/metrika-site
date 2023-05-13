@@ -1,0 +1,26 @@
+
+
+.project__title {
+  margin: 14px 0 15px 0;
+}
+
+.projects {
+  margin-top: 29px;
+}
+
+.projects .project {
+  margin-top: 88px;
+}
+
+.projects :first-child {
+  margin-top: 0;
+}
+
+.project__link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ad1818;
+  text-decoration: none;
+}
+

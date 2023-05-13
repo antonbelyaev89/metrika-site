@@ -1,0 +1,16 @@
+
+.services  {
+    margin-top: 34px;
+    }
+    
+    .services .service  {
+      margin-top: 58px;
+    }
+    
+    .services :first-child {
+    margin-top: 0;
+    }
+    
+    .service__image {
+    margin-bottom: 15px;
+    }

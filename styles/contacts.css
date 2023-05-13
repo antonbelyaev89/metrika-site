@@ -1,0 +1,43 @@
+
+.contact__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    }
+    
+    .contact__link {
+      margin-bottom: 160px;
+    }
+    
+    .contact__title:before {
+      content: "";
+      display: block;
+      margin-bottom: 12px;
+      margin-left: -5px;
+      width: 24px;
+      height: 24px;
+      background-image: url(../resourses/icon_phone.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    
+    .contacts__phone {
+      display: inline-block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 60px;
+      line-height: 60px;
+      color: #121212;
+      text-decoration: none;
+      letter-spacing: -0.015em;
+    }
+    
+    .contacts__email {
+      font-size: 60px;
+      line-height: 60px;
+      color: #121212;
+      opacity: 0.5;
+      text-decoration: none;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
