@@ -14,7 +14,7 @@
 }
 
 .footer__nav {
-  margin: auto;
+  margin: 0 auto;
   margin-bottom: 87px;
   display: flex;
   width: 450px;
@@ -35,9 +35,3 @@
   
 }
 
-.footer__inner {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  align-items: center;
-}

@@ -1,18 +1,22 @@
 
 
-.project__title {
+.project__title__list {
   margin: 14px 0 15px 0;
 }
 
 .projects {
+ margin-bottom: 150px;
+}
+
+.projects__list {
   margin-top: 29px;
 }
 
-.projects .project {
+.projects__list .project {
   margin-top: 88px;
 }
 
-.projects :first-child {
+.projects__list :first-child {
   margin-top: 0;
 }
 

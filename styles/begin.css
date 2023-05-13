@@ -17,4 +17,10 @@
     color: #ffffff;
   }
 
-  
+  .begin {
+    margin-bottom: 150px;
+  }
+
+  .begin__inner {
+    width: 100%;
+  }

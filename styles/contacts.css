@@ -1,13 +1,13 @@
 
+.contacts {
+  margin-top: 150px;
+  margin-bottom: 162px;
+}
 .contact__title {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
-    }
-    
-    .contact__link {
-      margin-bottom: 160px;
     }
     
     .contact__title:before {
