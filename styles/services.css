@@ -2,9 +2,8 @@
 .services  {
   min-width: 1150px;
   padding-top: 150px;
-  padding-bottom: 150px;
   background-color: #121212;
-    }
+  }
     
     .service {
       padding-top: 58px;
@@ -18,6 +17,9 @@
 
    .services__inner {
     width: 100%;
+   }
+   .services__list {
+    padding-bottom: 105px;
    }
    
    .service__title, .service__description {
