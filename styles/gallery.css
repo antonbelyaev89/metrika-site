@@ -1,6 +1,6 @@
 .gallery {
     position: relative;
-    min-width: 1400px;
+    min-width: 1150px;
     height: 717px;
     background: linear-gradient(
         180deg,
@@ -12,15 +12,13 @@
     background-size: cover;
   }
   
-  .gallery__text {
+  .gallery__text { 
     position: absolute;
     width: 443px;
     height: 82px;
-    left: 125px;
-    bottom: 61px;
-    font-weight: 400;
+    padding-top: 575px;
     font-size: 30px;
     line-height: 41px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   
