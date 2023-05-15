@@ -14,13 +14,15 @@
 }
 
 .footer__nav {
-  margin: 0 auto;
-  margin-bottom: 87px;
-  display: flex;
   width: 450px;
+  margin: 0 auto;
+  padding-bottom: 87px;
+  display: flex;
   justify-content: space-between;
 }
 
+.footernav__link {
+}
 
 
 .footernav__link:hover {

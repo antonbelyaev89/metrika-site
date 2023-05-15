@@ -1,23 +1,23 @@
   
-  h2 {
+h1 {
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: left;
+  color: #121212;
+}
 
-  }
+h2 {
+  font-size: 18px;
+line-height: 25px;
+color: #121212;
+}
   
   h3 {
   font-size: 30px;
   line-height: 41px;
+  color: #121212;
   }
   
-  .begin__title {
-    width: 956px;
-    font-size: 60px;
-    line-height: 60px;
-    text-align: left;
-  }
-  .about__title {
-
-  } .project__title {
-    color: #121212;
-  }
   
 

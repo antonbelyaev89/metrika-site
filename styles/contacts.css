@@ -25,7 +25,7 @@
     .contacts__phone {
       display: inline-block;
       margin-top: 30px;
-      margin-bottom: 30px;
+      margin-bottom: 31px;
       font-size: 60px;
       line-height: 60px;
       color: #121212;
@@ -33,11 +33,20 @@
       letter-spacing: -0.015em;
     }
     
+    .contacts__phone:hover {
+      opacity: 0.5;
+    }
+
     .contacts__email {
       font-size: 60px;
       line-height: 60px;
       color: #121212;
-      opacity: 0.5;
       text-decoration: none;
+    }
+
+    .contacts__email:hover {
+      opacity: 0.5;
       border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+
+
     }
