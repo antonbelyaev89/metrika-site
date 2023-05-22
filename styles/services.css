@@ -16,11 +16,11 @@
   }
 
 .services__list {
-  min-width: 1150px;
   padding-bottom: 148px;
   }
    
 .service__title, .service__description {
+  padding-left: 4px;
   color: #ffffff;
   }
 

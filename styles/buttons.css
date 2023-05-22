@@ -1,4 +1,4 @@
-.about_btn {
+.about__btn {
     display: inline-block;
     width: 256px;
     height: 68px;
@@ -15,7 +15,7 @@
     letter-spacing: -0.034em;
   }
   
-  .about_btn:hover {
+  .about__btn:hover {
     background-color: #ffffff;
     color: #ad1818;
   }

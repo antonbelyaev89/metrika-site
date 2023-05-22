@@ -1,18 +1,20 @@
 
-.nav__menu  {
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    float: unset;
-   }
+.nav {
+  float: right;
+}
   
-  .nav__link {
-    display: block;
+  .nav__link { 
+    display: inline-block;
+    margin-left: 58px;
     font-size: 18px;
     line-height: 27px;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     transition: all 0.3s ease;
     text-transform: uppercase;
+  }
+
+  .nav__link:first-child {
+    margin-left: 0;
   }
   
   .nav__link a {

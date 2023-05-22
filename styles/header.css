@@ -4,11 +4,8 @@
     margin-bottom: 70px;
   }
 
-.header__inner {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-  }
 
+.logo-link {
+display: inline-block;
+}
  

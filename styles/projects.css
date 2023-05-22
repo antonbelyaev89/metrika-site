@@ -9,16 +9,15 @@
 }
 
 .projects__list {
-  padding-top: 29px;
   padding-bottom: 90px;
 }
 
-.projects__list .project {
-  padding-top: 89px;
+ .project {
+  padding-top: 90px;
 }
 
-.projects__list :first-child {
-  padding-top: 0;
+.project:first-child {
+  padding-top: 29px;
 }
 
 .project__link {
