@@ -1,7 +1,7 @@
 .gallery {
   
     position: relative;
-    min-width: 1400px;
+    min-width: 1150px;
     height: 717px;
     background: linear-gradient(
         180deg,
@@ -12,15 +12,19 @@
     background-position: 50%;
     background-size: cover;
   }
-  
-  .gallery__text { 
+   .gallery__description {
     position: absolute;
+    bottom: 60px;
     width: 443px;
     left: 125px;
-    bottom: 60px;
+    
     font-size: 30px;
     font-weight: 400;
     line-height: 41px;
     color: #FFFFFF;
+   }
+
+  .gallery__text { 
+  
   }
   
