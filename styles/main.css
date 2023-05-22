@@ -10,11 +10,12 @@
 @import "../styles/buttons.css";
 @import "../styles/title.css";
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Manrope", sans-serif;
-  width: 100%;
   background: #ffffff;
   margin: 0 auto;
   font-weight: 400;
@@ -27,11 +28,9 @@ h1, h2, h3, a, p, div {
 }
 
 
-
-
 .container {
   margin: 0 auto;
-  max-width: 1150px;
+  width: 1150px;
 }
 
 

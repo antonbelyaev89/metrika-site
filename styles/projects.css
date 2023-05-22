@@ -1,7 +1,7 @@
 
 
-.project__title__list {
-  margin: 14px 0 15px 0;
+.project__description {
+  padding: 13px 0 15px 0;
 }
 
 .projects {
@@ -9,15 +9,16 @@
 }
 
 .projects__list {
-  margin-top: 29px;
+  padding-top: 29px;
+  padding-bottom: 90px;
 }
 
 .projects__list .project {
-  margin-top: 88px;
+  padding-top: 89px;
 }
 
 .projects__list :first-child {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .project__link {

@@ -21,9 +21,8 @@
   }
   
   .project__btn {
-    margin-top: 90px;
     display: block;
-    width: 100%;
+    min-width: 1150px;
     height: 152px;
     line-height: 153px;
     border: 1px solid #ad1818;

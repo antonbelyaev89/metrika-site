@@ -1,30 +1,26 @@
 
 .services  {
   min-width: 1150px;
-  padding-top: 150px;
+  padding-top: 151px;
   background-color: #121212;
   }
     
 .service {
-  padding-top: 58px;
+  padding-top: 60px;
   }
 .service:first-child {
   padding-top: 35px;
   }
 .service__image {
-  margin-bottom: 14px;
+  padding-bottom: 13px;
   }
 
-.services__inner {
-  width: 100%;
-  }
 .services__list {
   min-width: 1150px;
-  padding-bottom: 150px;
+  padding-bottom: 148px;
   }
    
 .service__title, .service__description {
-  padding-left: 4px;
   color: #ffffff;
   }
 

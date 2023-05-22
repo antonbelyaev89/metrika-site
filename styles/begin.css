@@ -1,12 +1,12 @@
-.begin_image {
+.begin__image {
     position: relative;
     margin-top: 28px;
     height: 500px;
-    width: 100%;
+    min-width: 1150px;
     background-image: url(../resourses/armchair.png);
   }
   
-  .begin_text_img {
+  .begin__description {
     position: absolute;
     left: 40px;
     bottom: 40px;
