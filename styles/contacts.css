@@ -3,14 +3,14 @@
   margin-top: 150px;
   margin-bottom: 162px;
 }
-.contact__title {
+.contacts__title {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
     }
     
-    .contact__title:before {
+    .contacts__title:before {
       content: "";
       display: block;
       margin-bottom: 12px;
