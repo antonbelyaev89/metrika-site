@@ -11,6 +11,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     transition: all 0.3s ease;
     text-transform: uppercase;
+    text-align: left;
   }
 
   .nav__link:first-child {

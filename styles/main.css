@@ -16,6 +16,8 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
+  width: 1400px;
+  min-width: 100%;
   background: #ffffff;
   margin: 0 auto;
   font-weight: 400;
