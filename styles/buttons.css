@@ -1,13 +1,13 @@
 .about__btn {
-    display: inline-block;
+    display: block;
     width: 256px;
-    height: 68px;
+    height: 67px;
     margin-top: 30px;
     padding: 20px 40px;
     background-color: #ad1818;
     color: #ffffff;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 27px;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
