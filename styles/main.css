@@ -10,9 +10,7 @@
 @import "../styles/buttons.css";
 @import "../styles/title.css";
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 body {
   font-family: "Manrope", sans-serif;
