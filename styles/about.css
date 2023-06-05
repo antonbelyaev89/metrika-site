@@ -8,3 +8,20 @@
   .about {
     margin-bottom: 149px;
   }
+
+  @media (max-width: 1199px) {
+    .about__description {
+      width: 693px;
+      font-size: 35px;
+      line-height: 48px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .about__description {
+      margin-top: 20px;
+      width: 345px;
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
