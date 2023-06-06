@@ -11,6 +11,7 @@
 
   @media (max-width: 1199px) {
     .about__description {
+      margin: 30px 0 30px 0;
       width: 693px;
       font-size: 35px;
       line-height: 48px;
@@ -19,7 +20,7 @@
 
   @media (max-width: 767px) {
     .about__description {
-      margin-top: 20px;
+      margin: 20px 0 30px 0;
       width: 345px;
       font-size: 22px;
       line-height: 30px;
