@@ -38,6 +38,9 @@
       background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.2) 100%),
       url(../resourses/armchair_tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     }
 
     .begin__description {
@@ -61,6 +64,9 @@
       background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.2) 100%),
       url(../resourses/armchair_mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
     }
 
     .begin__description {
