@@ -37,7 +37,8 @@ h1, h2, h3, a, p, div {
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding: 0 15px 0 15px;
+    padding: 0 17px 0 15px;
+    background-color: aqua;
   }
   
 }
@@ -46,6 +47,7 @@ h1, h2, h3, a, p, div {
   .container {
     width: 100%;
     padding: 0 13px 0 12px;
+    background-color: blueviolet;
   }
 }
 
