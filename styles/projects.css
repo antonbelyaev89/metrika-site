@@ -19,7 +19,6 @@
 
 
 .project__link {
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   color: #ad1818;
@@ -28,7 +27,7 @@
 
 @media (max-width: 1199px) {
   .project__image {
-    width: 100%;
+    object-fit: cover;
   }
  .project {
   padding-bottom: 80px;
@@ -43,10 +42,11 @@
     padding: 20px 0 11px 0;
   }
   .project__image {
+    max-height: 250px;
+    object-fit: cover;
   }
 
   .project__link {
-    padding-top: 11px;
     font-size: 16px;
     line-height: 22px;
   }
