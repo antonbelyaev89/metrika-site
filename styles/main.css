@@ -17,12 +17,14 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   background: #ffffff;
-  font-weight: 400;
+  
   font-style: normal;
 }
 
 
-h1, h2, h3, a, p, div {
+h1, h2, h3, a, p, div, button {
+  font-family: "Manrope";
+  font-weight: 400;
   letter-spacing: -0.03em;
 }
 

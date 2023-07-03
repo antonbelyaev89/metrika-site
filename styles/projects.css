@@ -31,6 +31,9 @@
 }
 
 @media (max-width: 1199px) {
+  .projects {
+    margin-bottom: 100px;
+  }
   .project__description {
     padding: 15px 0 10px 0;
   }
@@ -48,6 +51,9 @@
 }
 
 @media (max-width: 767px) {
+  .projects {
+    margin-bottom: 78px;
+  }
   .project__description {
     padding: 18px 0 11px 0;
   }
