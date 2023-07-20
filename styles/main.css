@@ -9,6 +9,9 @@
 @import "../styles/header.css";
 @import "../styles/buttons.css";
 @import "../styles/title.css";
+@import "../styles/rewiews.css";
+
+
 
 html {
   scroll-behavior: smooth;
@@ -17,7 +20,6 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   background: #ffffff;
-  
   font-style: normal;
 }
 

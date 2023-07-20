@@ -1,0 +1,82 @@
+.rewiews__title {
+    margin-bottom: 30px;
+}
+
+.rewiew__name {
+    margin-bottom: 14px;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.feedback {
+    font-size: 22px;
+    line-height: 30px;
+
+}
+
+.feedback_big {
+    width: 861px;
+}
+
+
+.rewiew__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 80px;
+}
+
+.rewiew__item {
+    width: calc(50% - 25px);
+}
+
+@media (max-width: 1199px) {
+    .rewiew__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 80px;
+        column-gap: 0;
+    }
+
+    .rewiew__item {
+        width: 100%;
+    }
+    .rewiew__name {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 47px;
+    }
+    
+    .feedback {
+        font-size: 20px;
+        line-height: 27px;
+    
+    }
+    
+    .feedback_big {
+        width: 694px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rewiew__item .feedback_big {
+        width: 100%;
+    }
+
+    .rewiew__list {
+        row-gap: 80px;
+    }
+    .rewiew__name {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    
+    .feedback {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    
+}
