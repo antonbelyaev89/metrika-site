@@ -66,6 +66,12 @@
     transition: 0.5s;
   }
 
+  .service__btn:hover {
+    color: #ffffff;
+    background-color: #6c0f0f;
+    border: 1px solid #6c0f0f;
+  }
+
   @media (max-width: 1199px) {
     .service__image {
       width: 100%;
