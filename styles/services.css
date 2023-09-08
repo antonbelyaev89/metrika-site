@@ -9,10 +9,13 @@
 
   .service__title {
     margin-bottom: 30px;
+   
   }
 
   .service__description {
     margin-top: 25px;
+    font-size: 30px;
+    line-height: 41px;
   }
     
 .service {
@@ -52,25 +55,6 @@
     color: #ffffff;
   }
 
-  .service__btn {
-    margin-top: 103px;
-    width: 100%;
-    height: 153px;
-    font-size: 30px;
-    line-height: 153px;
-    text-align: center;
-    color: #ffffff;
-    border: 1px solid #AD1818;
-    border-radius: 5px;
-    background-color: #AD1818;
-    transition: 0.5s;
-  }
-
-  .service__btn:hover {
-    color: #ffffff;
-    background-color: #6c0f0f;
-    border: 1px solid #6c0f0f;
-  }
 
   @media (max-width: 1199px) {
     .service__image {
@@ -78,16 +62,17 @@
       height: 315px;
       object-fit: cover;
       }
+
     .service__price {
       padding: 0 26px;
       font-size: 20px;
     } 
     .service__description {
       margin-top: 12px;
+      font-size: 25px;
+      line-height: 34px;
     }
-    .service__btn {
-      margin-top: 79px;
-    }
+    
     .services {
       padding-bottom: 120px;
     }
@@ -121,11 +106,8 @@
   }
   .service__description {
     margin-top: 8px;
+    font-size: 18px;
+    line-height: 25px;
   }
-  .service__btn {
-    margin-top: 58px;
-    height: 100px;
-    font-size: 22px;
-    line-height: 100px;
-  }
+  
 }

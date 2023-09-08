@@ -13,9 +13,10 @@
  margin-bottom: 150px;
 }
 
-.projects__list {
-  padding-top: 29px;
+.project__title {
+  padding-bottom: 29px;
 }
+
 
  .project {
   padding-bottom: 90px;
