@@ -13,7 +13,7 @@
   }
 
   .begin__title {
-    width: 956px;
+    max-width: 956px;
     font-size: 60px;
     line-height: 60px;
     text-align: left;
@@ -38,7 +38,6 @@
 
   @media (max-width: 1199px) {
     .begin__title {
-      width: 100%;
       font-size: 50px;
       line-height: 60px;
     }
