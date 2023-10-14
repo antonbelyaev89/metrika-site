@@ -39,6 +39,7 @@
   }
   .project__description {
     padding: 15px 0 10px 0;
+    line-height: 34px;
   }
 
   .project__image {
@@ -58,6 +59,8 @@
     margin-bottom: 78px;
   }
   .project__description {
+    font-size: 18px;
+    line-height: 25px;
     padding: 18px 0 11px 0;
   }
   .project__image {
